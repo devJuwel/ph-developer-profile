@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --orenge: rgb(253, 110, 10);
+    --light-orenge: rgb(255, 248, 243);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    margin: 100px 0;
+    display: block;
+
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
+}
+
+.primary-color {
+    color: rgb(253, 110, 10);
+
+
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 10px 30px;
+    color: aliceblue;
+    background-color: var(--orenge);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+/* header  */
+header {
+    padding: 0px 10%;
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
+    background-position: right bottom, left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--light-orenge);
+
+}
+
+
+.logo-text {
+    font-size: 3rem;
+}
+
+nav {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+menu ul {
+    display: flex;
+    align-items: center;
+}
+
+menu ul li a {
+
+    font-size: 1.67rem;
+    padding: 0 25px;
+    color: #000;
+}
+
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .banner-sub-title {
+    font-size: 4.7rem;
+    font-weight: 600;
+}
+
+.banner .banner-title {
+    font-size: 8.857rem;
+}
+
+.banner .banner-description {
+    font-size: 1.82rem;
+    color: dimgray;
+    line-height: 25px;
+}
+
+
+
+
+/* about section  */
+
+.about-title,
+.i-do h2,
+.resume h2 {
+    font-size: 3.7rem;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+
+.about {
+    background-color: var(--light-orenge);
+    padding: 90px;
+    text-align: center;
+}
+
+.about-description {
+    font-size: 1.6rem;
+    color: dimgray;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.about-info h4 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.about-info p {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: rgb(15, 15, 15);
+}
+
+/* what I do section  */
+.i-do h2 {
+    font-size: 3.7rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 6px;
+
+}
+
+.card .card-title {
+    font-size: 2.1rem;
+    padding: 20px 0;
+    text-align: left;
+
+}
+
+.card .card-discription {
+    font-size: 1.6rem;
+    line-height: 24px;
+
+}
+
+
+/* resume  */
+.w-50 {
+    width: 50%;
+}
+
+.resume-title {
+    font-size: 1.89rem;
+}
+
+.resume-item {
+    margin: 25px 0;
+}
+
+.resume-item .title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.resume-item .sub-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 10px 0;
+    color: #757575;
+}
+
+.resume-item .discription {
+    font-size: 1.7rem;
+    line-height: 25px;
+    color: dimgray;
+    margin: 20px 0 40px;
+}
+
+.contact {
+    background-color: var(--light-orenge);
+    padding: 130px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.contact .contact-info {
+    width: 250px;
+
+}
+.contact .contact-form h3 ,
+.contact .contact-info h3 {
+    font-size: 3.65rem;
+    margin-bottom: 40px;
+
+}
+
+.contact .contact-info p {
+    padding-bottom: 20px ;
+    font-size: 1.88rem;
+    color: dimgray;
+}
+.social-icons a{
+    padding: 0 5px;
+}
+
+.social-icons a:nth-child(1) {
+    padding: 0 5px 0 0  ;
+}
+
+.contact-form{
+   width: 360px;
+}
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea{
+    width: 100%;
+    display: block;
+    margin:24px 0;
+    padding: 25px;
+    border:none;
+    border-radius: 6px;
+}
+
+
+
